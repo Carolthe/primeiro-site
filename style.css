@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+.container-pai{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    height: 330px;
+    width: 500px;
+   
+    margin-top: -5%;
+    
+}
+.container2{
+    height: 550px;
+    width: 500px;
+    display: inline-block;
+    order: 2;
+   
+}
+header{
+    display: flex;
+    justify-content: end;
+}
+a{
+  margin-left: 8%;
+  text-decoration: none;
+  color: rgba(58, 58, 58, 0.671);
+  font-size: 100%;
+  cursor: pointer;
+}
+a:hover{
+    color: rgb(28, 28, 131);
+}
+a:active{
+    color: rgba(28, 28, 131, 0.74);
+}
+main{
+    margin-top: 36%;
+}
+h1{
+    font-size: 180%;
+    color:rgb(0, 174, 255);
+
+}
+p{
+    font-size: 110%;
+    color: rgba(58, 58, 58, 0.671);
+    margin-top: 5%;
+}
+button{
+    height: 40px;
+    width: 25%;
+    border: none;
+    border-radius: 20px;
+    font-size: 100%;
+    color: white;
+    background: black;
+    text-align: center;
+    margin-top: 2%;
+    margin: 1%;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+}
+button:hover{
+    background:rgb(37, 37, 37);
+}
+button:active{
+    background: rgba(37, 37, 37, 0.767);
+}
+img{
+    width:100%;
+    margin-left: -10%;
+}
+@media screen and (max-width: 550px) {
+
+body{
+    margin: 0;
+    padding: 0;  width: 100vw;
+    height: 100vh;
+}
+.container-pai{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.container1{
+    width: 390px;
+    height: 400px;
+}
+.container2{
+    width: 350px;
+    height: 350px;
+    order: -1;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -90px;
+    
+}
+a{
+    display: none;
+}
+h1{
+    margin-top: -20%;
+    
+}
+button{
+    text-align: center;
+    width: 30%;
+    margin: 1%;
+    margin-top: 20%;
+}
+button:hover{
+    background:rgb(37, 37, 37);
+}
+button:active{
+    background: rgba(37, 37, 37, 0.767);
+}
+img{
+    margin-left: -7%;
+    width: 110%;
+}
+}
